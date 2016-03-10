@@ -1,0 +1,100 @@
+		body {
+			background: #f9f9f9;
+			}
+		.wrapper {
+			background: #ffffff;
+			margin: 0 auto;
+			width: 1060px;
+			padding: 0px 46px;
+			}
+		.logo {
+			font-size: 36px;
+			color: #323232;
+			font-family: "Cambria";
+			padding-top: 50px;
+			padding-bottom: 42px;
+		}
+		.logo:first-letter {
+			color: #242424;
+			font-size: 40px;
+			}
+		.menu li{
+			float: left;
+			display: inline-block;
+			background-color: #4c4c4c;
+			height: 40px;
+			margin: 0 auto;
+			}
+		.menu a{
+			color: #ffffff;
+			font-size: 14px;
+			text-decoration: none;
+			}
+		.Button1 {
+			padding-top: 17px;
+			padding-left: 25px;
+			padding-right: 64px;
+			}
+		.Button2 {
+			padding-top: 17px;
+			padding-left: 23px;
+			padding-right: 23px;
+			border-left: 1px solid #838383;
+			border-right: 1px solid #838383;
+			}
+		.Button3 {
+			padding-top: 17px;
+			padding-left: 63px;
+			padding-right: 63px;
+			}
+		.Button4 {
+			padding-top: 17px;
+			padding-left: 23px;
+			padding-right: 463px;
+			}
+		.Container:after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.Indent {
+			padding-bottom: 40px;
+		}
+		.Sidebar {
+			float: left;
+			width: 280px;
+		}
+		.Sidebar a{
+			padding-left: 15px 25px;
+			border: 1px solid #838383;
+			text-decoration: none;
+			color: #c8c8c8;
+			font-size: 12px;
+			font-family: "Tahoma";
+			line-height: 28px;			}
+		}
+		.box ul li{
+			padding-top: 17px;
+			padding-bottom: 11px;
+			background-color: #ffffff;
+			margin: 0 auto;
+		}
+		.image {
+			float: right;
+			height: 400px;
+			width: 677px;
+			border: 1px solid #e2e2e2;
+			margin: 0 auto;
+		}
+		.lorem {
+			font-size: 8px;
+			color: #787878;
+			padding-top: 40px;
+		}
+		/*h1{
+			text-align: center;
+		}
+		img {
+			display: block; 
+			margin: 0 auto;
+		}
