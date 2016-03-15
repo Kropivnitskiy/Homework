@@ -107,22 +107,20 @@
 
 		/*CONTENT*/
 
-		.content {
-			position: relative;
-			overflow: 	hidden;
+		.content{
 			width: 1000px;
-			background: white;
+			margin: 0 auto;
 			}
-		.content:after {
+		.content:after{
 			content: '';
 			clear: both;
 			display: block;
 		}
-		.content p {
+		.content p{
 			padding: 0 15px;
 			color: #424c43;
 		}
-		.headline {
+		.headline{
 			text-align: center;
 			line-height: 30px;
 			font-weight: bold;
@@ -133,26 +131,19 @@
 			width: 210px;
 			float: left;
 			background: #edeef0;
-			/*padding-bottom: 20000px;
-			margin-bottom: -20000px;*/
-
+		}
+		.right{
+			width: 210px;
+			float: right;
+			background: #edeef0;
 		}
 		.centre{
-			width: 578px;
-			float: left;
+			margin: 0 210px 0 210px;
 			border-left: 1 solid #c7cacf;
 			border-right: 1 solid #c7cacf;
 			background: #ffffff;
-			/*padding-bottom: 20000px;
-			margin-bottom: -20000px;*/			
 		}
-		.right: {
-			width: 210px;
-			float: left;
-			background: #edeef0;
-			/*padding-bottom: 20000px;
-			margin-bottom: -20000px;*/
-		}
+
 	
 		/*FOOTER*/
 
