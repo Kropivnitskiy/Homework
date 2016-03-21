@@ -62,12 +62,14 @@
 		}
 		
 		/*FORM*/
+		.wrapper{
+			margin-top: 69px;
+		}
 		.cadastre{
 			background-color: rgba(0, 0, 0, 0.63);
 			width: 410px;
 			height: 42px;
-			margin-top: 69px;
-			margin-left: 450px;
+			margin: 0 auto;
 		}
 		.cadastre p{
 			color: #ffffff;
@@ -75,12 +77,14 @@
 			text-align: center;
 			padding-top: 12px;
 		}
+		.wrapper2{
+			margin-top: 2px;
+		}
 		.form{
 			background-color: rgba(0, 0, 0, 0.63);
 			width: 410px;
 			height: 500px;
-			margin-top: 2px;
-			margin-left: 450px;
+			margin: 0 auto;
 		}
 		.facebook{
 			padding-top: 26px;
