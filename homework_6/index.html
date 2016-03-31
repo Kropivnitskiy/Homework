@@ -51,28 +51,130 @@
 	</div>
 
 	<!-- MENU -->
-	<div class="menu">
-		<div class="mainmenu">
-			<ul>
-				<li><a href="">о компани</a></li>
-				<li><a href="">оплата</a></li>
-				<li><a href="">доставка</a></li>
-				<li><a href="">статьи</a></li>
-				<li><a href="">контакты</a></li>
-			</ul>
+
+	<div class="mainmenu">
+		<ul class="menu">
+			<li><a href="">о компани</a></li>
+			<li><a href="">оплата</a></li>
+			<li><a href="">доставка</a></li>
+			<li><a href="">статьи</a></li>
+			<li><a href="">контакты</a></li>
+		</ul>
+		<ul class="basket">
+			<li><span> 0,00 грн.</span></li>
+			<li>на сумму:</li>
+			<li><span>0</span></li>
+			<li>товаров:</li>
+			<li><img src="img/basket.png" alt="корзина"/></li>
+		</ul>
+	</div>
+
+	<!-- SEARCH -->
+
+	<div class="search">
+		<div class="box-by-car">
+			<form method="get" action="/search">
+				<span class="car-tires">Диски:</span>
+				<span class="car-car">Поиск по автомобилю</span>
+				<span class="car-wheels">Шины:</span>
+				<div class="search-car-tires">
+					<div class="brand">
+						<span class="black">Марка&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">авто:&nbsp;</span>
+						<select name="brand-sel">
+							<option value="">все</option>
+							<option value="1">Mercedes</option>
+							<option value="2">BMW</option>
+							<option value="3">Ford</option>
+							<option value="4">Toyota</option>
+						</select>
+					</div>
+					<div class="model">
+						<span class="black">Модель&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">авто:&nbsp;</span>
+						<select name="model-sel">
+							<option value="">все</option>
+							<option value="1">Vito</option>
+							<option value="2">i740</option>
+							<option value="3">Focus</option>
+							<option value="4">Yaris</option>
+						</select>
+					</div>
+					<div class="year">
+						<span class="black">Год выпуска&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">автомобиля:&nbsp;</span>
+						<select name="year-sel">
+							<option value="">все</option>
+							<option value="1">2016</option>
+							<option value="2">2015</option>
+							<option value="3">2014</option>
+							<option value="4">2013</option>
+						</select>
+					</div>
+					<div class="complect">
+						<span class="black">Комплектация:&nbsp;&nbsp;&nbsp;</span>
+						<select name="complect-sel">
+							<option value="">все</option>
+							<option value="1">Full</option>
+							<option value="2">Baza</option>
+						</select>
+					</div>
+				</div>
+				<div class="search-car-wheels">
+					<div class="brand">
+						<span class="black">Марка&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">авто:&nbsp;</span>
+						<select name="brand-sel">
+							<option value="">все</option>
+							<option value="1">Mercedes</option>
+							<option value="2">BMW</option>
+							<option value="3">Ford</option>
+							<option value="4">Toyota</option>
+						</select>
+					</div>
+					<div class="model">
+						<span class="black">Модель&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">авто:&nbsp;</span>
+						<select name="model-sel">
+							<option value="">все</option>
+							<option value="1">Vito</option>
+							<option value="2">i740</option>
+							<option value="3">Focus</option>
+							<option value="4">Yaris</option>
+						</select>
+					</div>
+					<div class="year">
+						<span class="black">Год выпуска&nbsp;&nbsp;&nbsp;</span>
+						<span class="grey">автомобиля:&nbsp;</span>
+						<select name="year-sel">
+							<option value="">все</option>
+							<option value="1">2016</option>
+							<option value="2">2015</option>
+							<option value="3">2014</option>
+							<option value="4">2013</option>
+						</select>
+					</div>
+					<div class="complect">
+						<span class="black">Комплектация:&nbsp;&nbsp;&nbsp;</span>
+						<select name="complect-sel">
+							<option value="">все</option>
+							<option value="1">Full</option>
+							<option value="2">Baza</option>
+						</select>
+					</div>
+				</div>
+				<button class="search-png" name="search_tires" value="search"></button>
+			</form>
 		</div>
-		<div class="basket">
-			<ul>
-				<li><span>0,00 грн.</span></li>
-				<li>на сумму:</li>
-				<li><span>0</span></li>
-				<li>товаров:</li>
-				<li><img src="img/basket.png" alt="basket"/></li>
-			</ul>
+		<div class="search-wheels">
+			
+		</div>
+		<div class="search-tires">
+			
 		</div>
 	</div>
 
-	<!-- FORM -->
+
 
 	</div>
 </body>
