@@ -1,0 +1,36 @@
+div {
+			margin: 0 auto;
+		}
+		body {
+			background: #efefef;
+					}
+		.brd {
+			border: 2px solid #e0e0e0;
+			border-radius: 1px;
+			background: #ffffff;
+			width: 600px;
+			height: 760px;
+			padding: 40px;
+			box-shadow: 0 0 5px 1px #e0e0e0;
+		}
+		h1{
+			text-align: center;
+		}
+		img {
+			display: block; 
+			margin: 0 auto;
+		}
+		p{
+			font-size: 20px;
+			color: #000001;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			}
+		ul{
+			font-size: 20px;
+			margin-left: 20px;
+		}
+		a{
+			font-size: 20px;
+			margin-left: 20px;
+			}
