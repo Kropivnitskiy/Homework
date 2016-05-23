@@ -1,0 +1,24 @@
+  form {
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+    width: 510px;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+
+  .tipe {
+    display:none;
+    padding: 5px;
+    background:#fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px grey;
+    font-size:16px;
+}
