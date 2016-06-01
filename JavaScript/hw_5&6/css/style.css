@@ -1,10 +1,14 @@
+body {
+	background-color: lightyellow;
+}
+
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
 }
 
 .clock {
-	height: 150px;
+	height: 200px;
 	width: 960px;
 	border: 15px solid #000;
 	border-radius: 100px;
