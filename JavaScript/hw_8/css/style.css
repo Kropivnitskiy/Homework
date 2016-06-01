@@ -1,17 +1,32 @@
+  body {
+    background-color: lightyellow;
+  }
+
   form {
     margin: 0 auto;
     width: 600px;
   }
 
-  label {
-    display: inline-block; width: 5em;
+  fieldset {
+    margin-top: 200px;
+    background-color: lightgreen;
   }
+
   fieldset div {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     width: 510px;
   }
   fieldset .help {
     display: inline-block;
+  }
+
+  label {
+    display: inline-block; 
+    width: 5em;
+  }
+
+  input {
+    height: 1.8em;
   }
 
   .tipe {
@@ -22,3 +37,10 @@
     box-shadow: 0 0 5px grey;
     font-size:16px;
 }
+
+  button {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: lightblue;
+  }
