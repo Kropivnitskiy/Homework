@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   color:#cccccc;
   font-size:14px;
@@ -21,6 +22,11 @@ h2 {
 .tab-panels {
   max-width: 620px;
   margin: 0 auto;
+=======
+.tab-panels {
+    width: 600px;
+    margin: 0 auto;
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
 }
 
 .tab-panels ul {
@@ -31,6 +37,7 @@ h2 {
 .tab-panels ul li {
   list-style-type: none;
   display: inline-block;
+<<<<<<< HEAD
   width: 80px;
   background: #EEEEEE;
   margin: 0;
@@ -38,30 +45,53 @@ h2 {
   border-radius: 10px 10px 0 0;
   color: #444444;
   font-weight: 700;
+=======
+  background: #999;
+  margin: 0;
+  padding: 3px 10px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-weight: 200;
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
   cursor: pointer;
 }
 
 .tab-panels ul li:hover {
   color: #fff;
+<<<<<<< HEAD
   background: #121b21;
+=======
+  background: #666;
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
 }
 
 .tab-panels ul li.active {
   color: #fff;
+<<<<<<< HEAD
   background: #121b21;
+=======
+  background: #666;
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
 }
 
 .tab-panels .panel {
   display: none;
+<<<<<<< HEAD
   background: #333;
+=======
+  background: #c9c9c9;
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
   padding: 30px;
   border-radius: 0 0 10px 10px;
 }
 
 .tab-panels .panel.active {
   display: block;
+<<<<<<< HEAD
 }
 
 ul:nth-of-type(2) { 
   background: #ccc;
+=======
+>>>>>>> 31e25ec0123d786d30269565d513c37aaed22550
 }
