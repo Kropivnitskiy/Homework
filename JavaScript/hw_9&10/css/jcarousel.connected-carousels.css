@@ -1,3 +1,15 @@
+body {
+    background-color: #F0EFE7;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    color: #e04b00;
+}
+
 /** Stage container **/
 
 .connected-carousels .stage {
@@ -63,8 +75,8 @@
 /** Navigation carousel specific styles **/
 
 .connected-carousels .carousel-navigation {
-    height: 60px;
-    width: 240px;
+    height: 95px;
+    width: 220px;
     background: #fff;
     border: 10px solid #fff;
     -webkit-border-radius: 5px;
@@ -95,7 +107,7 @@
     display: block;
     position: absolute;
     top: 0;
-    width: 305px;
+    width: 275px;
     height: 410px;
     color: #fff;
 }
@@ -175,7 +187,7 @@
 }
 
 .connected-carousels .next-navigation {
-    right: -15px;
+    right: 5px;
     top: 22px;
     text-indent: 20px;
 }
@@ -184,4 +196,14 @@
 .connected-carousels .next-navigation.inactive {
     opacity: .5;
     cursor: default;
+}
+
+.carousel-stage img {
+    width: 300px;
+    height: 400px;
+}
+
+.carousel-navigation img {
+    width: 65px;
+    height: 90px;
 }
