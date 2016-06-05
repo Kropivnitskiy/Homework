@@ -1,12 +1,39 @@
-    form {
-        margin: 100px;
-    }
-    .films {
-        width: 180px;
-    }
-    .lineForm {
-        margin-bottom: 20px;
-    }
+form {
+    margin: 100px;
+}
+.lineForm {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sel80 {
+    width: 210px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* стили для примера: выравнивание label, селекты на в одну строку */
+.lineForm {
+    float: left;
+    width: 100%;
+    zoom: 1;
+}
+* html .lineForm {
+    float: none;
+    width: auto;
+}
+label {
+    float: left;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.cusel {
+    float: left;
+    margin-right: 10px;
+}
+option {
+    font-size: 30px;
+}
 
     /* стили для примера: выравнивание label, селекты на в одну строку */
 /*    .lineForm,

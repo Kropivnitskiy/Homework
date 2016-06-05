@@ -4,29 +4,26 @@
   <meta charset="UTF-8">
   <title>JS 9 - 10</title>
 
-  <!-- <link rel="stylesheet" href="css/jquery.fancybox.css"> -->
-    <link rel="stylesheet" href="css/jcarousel.connected-carousels.css">
-    <link rel="stylesheet" href="css/cusel.css">
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jcarousel.connected-carousels.css">
+<link rel="stylesheet" href="css/cusel.css"/>
+<link rel="stylesheet" href="css/style.css"/>
 
-<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/jcarousel.connected-carousels.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.6.1.js"></script>
+<!--<script type="text/javascript" src="js/cusel-min-2.4.1.js"></script>-->
+<script type="text/javascript" src="js/cusel.js"></script>
+<script type="text/javascript" src="js/jScrollPane.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 
 
-<!-- carousel -->
-    <script src="js/jquery-1.12.4.js"></script>
-    <script src="js/jquery.jcarousel.min.js"></script>
-    <script src="js/jcarousel.connected-carousels.js"></script>
-<!-- select cusel -->
-    <script src="js/cusel.js"></script>
-    <script src="js/jScrollPane.js"></script>
-    <script src="js/jquery.mousewheel.js"></script>
-<!-- fancybox -->
-    <script src="js/jquery.fancybox.js"></script>
-
-    <script src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </head>
 <body>
+
   <div class="wrapper">
     <h1>Фильмы <span>скоро</span> в прокате</h1>
     <div class="connected-carousels">
@@ -57,25 +54,26 @@
       </div>
     </div>
 
-    <form action="#">
+<div class="main">
+	<form action="#">
         <div class="lineForm">
-            <label>Селект со скролом и длинным значением</label>
-            <select class="films" id="films" name="films">
+            <label>Який фільм подивимось цього разу?</label>
+            <div class="lineForm">
+            <select class="sel80" id="films" name="films">
                 <option value="1">Аліса в Задзеркаллі</option>
                 <option value="2">Голограма для короля</option>
                 <option value="3">День незалежності</option>
-                <option value="4">Warcraft: початок</option>
+                <option value="4">Warcraft: Початок</option>
                 <option value="4">Angry Birds</option>
                 <option value="4">Люди Ікс: Апокаліпсис</option>
                 <option value="4">Перший місник: Протистояння</option>
-                <option value="4">Підлітки-мутанти черепагки-ніндзя 2</option>
-                <option value="4">Ілюзія обману: другий акт</option>
-                <option selected="selected" value="1000">Вибери фільм</option>
+                <option value="4">Підлітки-мутанти черепашки-ніндзя 2</option>
+                <option value="4">Ілюзія обману: Другий акт</option>
+                <option selected="selected" value="1000">Обери фільм</option>
             </select>
+            </div>
         </div>
     </form>
-
-<a class="fancybox" href="img/IndependentDayBig.jpg"><img src="img/IndependentDaySmall.jpg"><br><h3>Independent day</h3></a>
-
+</div>
 </body>
 </html>
