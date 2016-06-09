@@ -1,0 +1,151 @@
+CSS for custom checkbox*/
+/*form {
+    margin: 50px;
+    background: #99CCFF;
+    padding: 10px;
+}
+
+div {
+	margin-bottom: 10px;
+
+}
+
+.css_checkbox {
+	position: relative;
+	overflow: hidden;
+}
+
+label {
+	cursor: pointer;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.css_checkbox label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+}
+
+input[type=checkbox]:checked + 
+label:after {
+	background-position: 0 -17px;
+}
+
+.test3 label:after {
+	opacity: .5;
+}*/
+
+/*CSS for JQuery checkbox*/
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox-sprite.png);
+}
+
+.niceCheck input {
+	display: none;
+}
+		
+.query_checkbox {
+	width: 250px;
+}
+.query_checkbox input {
+	display: none;
+}
+
+.query_checkbox label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.query_checkbox input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+/*  CHECKBOXES  */
+
+
+/*.niceCheck {
+
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox-sprite.png);
+}
+.niceCheck input {
+	display: none;
+}
+label {
+	cursor: pointer;
+}
+.checkbox, .checkbox2 {
+	width: 250px;
+}
+.checkbox2 input {
+	display: none;
+}
+
+.checkbox2 label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.checkbox2 input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}*/
+
+/*   NAVBAR   
+
+.navbar {
+	background-color: red;
+	margin-bottom: 500px;
+	text-align: center;	
+}
+
+
+.navbar  a {
+	display: block;
+	font-weight: 900;
+	line-height: 50px;
+	color: white;	
+}
+
+.menu > li {
+	display: inline-block;
+	padding: 0 70px;
+}
+
+#submenu {
+	display: none;
+	background: green;
+	position: absolute;
+	left: 570px;
+	width: 200px;
+}
+#submenu2 {
+	display: none;
+	background: linear-gradient(to bottom, #000, #ddd);
+	position: absolute;
+	width: 200px;
+	left: 200px;
+	top: 104px;
+}

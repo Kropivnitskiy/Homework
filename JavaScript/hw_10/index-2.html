@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS 10 "checkbox + slide down menu"</title>
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+<link rel="stylesheet" href="css/style.css"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/jquery.formstyler.js"></script>
+<script src="js/script.js"></script>
+
+</head>
+<body>
+
+<!-- <form action="#" class="css_checkbox">
+    <h2>Custom checkboxes with CSS only</h2>
+    <div>
+        <input type="checkbox" id="test1" />
+        <label for="test1">label 1</label>
+    </div>
+    <div>
+        <input type="checkbox" id="test2" checked="checked" />
+        <label for="test2">label 2</label>
+    </div>
+    <div class="test3">
+        <input type="checkbox" id="test3" checked="checked" disabled="disabled" />
+        <label for="test3">label 3</label>
+    </div>
+</form> -->
+
+
+<form action="#" class="query_checkbox">
+    <h2>Custom checkboxes with JQuery</h2>
+	<div>
+		<span class="niceCheck" id="niceCheckbox1">
+		<input type="checkbox" name="ch1" /><label for="ch1">label 1</label></span>
+	</div>
+	<div>
+		<span class="niceCheck" id="niceCheckbox2">
+		<input type="checkbox" name="ch2" checked="checked" /><label for="ch2">label 2</label></span>
+	</div>
+	<div>
+		<span class="niceCheck" id="niceCheckbox3">
+		<input type="checkbox" name="ch3" checked="checked" disabled="disabled" /><label for="ch3">label 3</label></span>
+	</div>
+</form>
+
+		<section class="checkbox">
+			<h3>Checkbox by jQuery</h3>
+			<p><label for="ch1">Checkbox 1</label><span class="niceCheck" id="ch1"><input type="checkbox" ></span></p>
+			<p><label for="ch2">Checkbox 2</label><span class="niceCheck" id="ch2"><input type="checkbox" checked="true" ></span></p>
+			<p><label for="ch3">Checkbox 3</label><span class="niceCheck"  id="ch3"><input type="checkbox" disabled="disabled"></span></p>
+			
+		</section>
+<!-- 
+        <div class="query-checkbox">
+            <h4>jQuery-checkbox</h4>
+            <div>
+                <label for="jch1">label 1</label>
+                <input type="checkbox" class="niceCheck" id="jch1" tabindex="1" />
+            </div>
+            <div>
+                <label for="jch2">label 2</label>
+                <input type="checkbox" class="niceCheck" checked="checked" id="jch2" tabindex="2" value="2" />
+            </div>
+            <div>
+                <label for="jch3">label 3</label>
+                <input type="checkbox" class="niceCheck" id="jch3" checked="checked" disabled="disabled" />
+            </div>
+        </div>
+
+
+
+
+		<section class="checkbox">
+			<h3>Checkbox by jQuery</h3>
+			<p><label for="ch1">Checkbox 1</label><span class="niceCheck" id="ch1"><input type="checkbox" ></span></p>
+			<p><label for="ch2">Checkbox 2</label><span class="niceCheck" id="ch2"><input type="checkbox" checked="true" ></span></p>
+			<p><label for="ch3">Checkbox 3</label><span class="niceCheck"  id="ch3"><input type="checkbox" disabled="disabled"></span></p>
+			
+		</section>
+
+		<section class="checkbox2">
+			<h3>Checkbox by css</h3>
+			<article>
+			<input type="checkbox" id="test-check1">
+			<label for="test-check1">Чекбокс 1:</label>
+			</article>
+			<article>
+			<input type="checkbox" id="test-check2">
+			<label for="test-check2">Чекбокс 2:</label>
+			</article>
+			<article>
+			<input type="checkbox" id="test-check3" checked="true">
+			<label for="test-check3">Чекбокс 3:</label>
+			</article>
+			 -->
+		</section>
+		<nav class="navbar">
+			<ul class="menu">
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li id="menulink"><a href="#">Menu 3</a>
+						
+						<ul id="submenu">
+							<li><a href="#">Submenu 1</a></li>
+							<li><a href="#">Submenu 2</a></li>
+							<li id="submenulink"><a href="#">Submenu 3</a>
+								<ul id="submenu2">
+									<li><a href="">Second submenu 1</a></li>
+									<li><a href="">Second submenu 2</a></li>
+									<li><a href="">Second submenu 3</a></li>
+									<li><a href="">Second submenu 4</a></li>
+									<li><a href="">Second submenu5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Submenu 4</a></li>
+							<li><a href="#">Submenu 5</a></li>
+						</ul>
+
+				</li>
+				<li><a href="#">Menu 4</a></li>
+				<li><a href="#">Menu 5</a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+</body>
+</html>
