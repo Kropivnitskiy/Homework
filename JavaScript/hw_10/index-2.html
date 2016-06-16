@@ -7,13 +7,13 @@
 <link rel="stylesheet" href="css/style.css"/>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="js/jquery.formstyler.js"></script>
+<script src="js/jquery.color.js"></script>
 <script src="js/script.js"></script>
 
 </head>
 <body>
 
-<!-- <form action="#" class="css_checkbox">
+<form action="#" class="css_checkbox">
     <h2>Custom checkboxes with CSS only</h2>
     <div>
         <input type="checkbox" id="test1" />
@@ -27,76 +27,231 @@
         <input type="checkbox" id="test3" checked="checked" disabled="disabled" />
         <label for="test3">label 3</label>
     </div>
-</form> -->
-
-
-<form action="#" class="query_checkbox">
-    <h2>Custom checkboxes with JQuery</h2>
-	<div>
-		<span class="niceCheck" id="niceCheckbox1">
-		<input type="checkbox" name="ch1" /><label for="ch1">label 1</label></span>
-	</div>
-	<div>
-		<span class="niceCheck" id="niceCheckbox2">
-		<input type="checkbox" name="ch2" checked="checked" /><label for="ch2">label 2</label></span>
-	</div>
-	<div>
-		<span class="niceCheck" id="niceCheckbox3">
-		<input type="checkbox" name="ch3" checked="checked" disabled="disabled" /><label for="ch3">label 3</label></span>
-	</div>
 </form>
 
-		<section class="checkbox">
-			<h3>Checkbox by jQuery</h3>
-			<p><label for="ch1">Checkbox 1</label><span class="niceCheck" id="ch1"><input type="checkbox" ></span></p>
-			<p><label for="ch2">Checkbox 2</label><span class="niceCheck" id="ch2"><input type="checkbox" checked="true" ></span></p>
-			<p><label for="ch3">Checkbox 3</label><span class="niceCheck"  id="ch3"><input type="checkbox" disabled="disabled"></span></p>
-			
-		</section>
-<!-- 
-        <div class="query-checkbox">
-            <h4>jQuery-checkbox</h4>
-            <div>
-                <label for="jch1">label 1</label>
-                <input type="checkbox" class="niceCheck" id="jch1" tabindex="1" />
-            </div>
-            <div>
-                <label for="jch2">label 2</label>
-                <input type="checkbox" class="niceCheck" checked="checked" id="jch2" tabindex="2" value="2" />
-            </div>
-            <div>
-                <label for="jch3">label 3</label>
-                <input type="checkbox" class="niceCheck" id="jch3" checked="checked" disabled="disabled" />
-            </div>
-        </div>
+<form action="#">
+    <h2>Custom checkboxes with JQuery</h2>
+	<div>
+		<label for="ch1">label 1</label>
+		<input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
+	</div>
+	<div>
+		<label for="ch2">label 2</label>
+		<input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+	</div>
+	<div>
+		<label for="ch3">label 3</label>
+		<input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+	</div>
+</form>
+    <!-- Конец блока .query_checkbox -->
+<div id="mainmenu">
+        <ul>
+            <!-- Пункт меню 1 -->
+            <li class="parent"><a href="#">Пункт 1</a>
+                <ul>
+                    <li><a href="#">подпункт 1.1</a></li>
+                    <li class="parent"><a href="#">подпункт 1.2</a>
+                        <ul>
+                            <li class="parent"><a href="#"> подпункт 1.2.1 </a>
+                                <ul>
+                                    <li><a href="#"> подпункт 1.2.1.1 </a></li>
+                                    <li class="parent"><a href="#"> подпункт 1.2.1.2</a>
+                                        <ul>
+                                            <li><a href="#"> подпункт 1.2.1.2.1 </a></li>
+                                            <li><a href="#"> подпункт 1.2.1.2.2</a></li>
+                                            <li><a href="#"> подпункт 1.2.1.2.3</a></li>
+                                            <li><a href="#"> подпункт 1.2.1.2.4</a></li>
+                                            <li><a href="#"> подпункт 1.2.1.2.5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> подпункт 1.2.1.3</a></li>
+                                    <li><a href="#"> подпункт 1.2.1.4</a></li>
+                                    <li><a href="#"> подпункт 1.2.1.5</a></li>
+                                </ul>
+                            </li>
+                            <li class="parent"><a href="#"> подпункт 1.2.2</a>
+                                <ul>
+                                    <li><a href="#"> подпункт 1.2.2.1 </a></li>
+                                    <li><a href="#"> подпункт 1.2.2.2 </a></li>
+                                    <li><a href="#"> подпункт 1.2.2.3 </a></li>
+                                    <li><a href="#"> подпункт 1.2.2.4 </a></li>
+                                    <li><a href="#"> подпункт 1.2.2.5 </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"> подпункт 1.2.3</a></li>
+                            <li><a href="#"> подпункт 1.2.4</a></li>
+                            <li class="parent"><a href="#"> подпункт 1.2.5</a>
+                                <ul>
+                                    <li><a href="#"> подпункт 1.2.5.1 </a></li>
+                                    <li><a href="#"> подпункт 1.2.5.2</a></li>
+                                    <li><a href="#"> подпункт 1.2.5.3</a></li>
+                                    <li><a href="#"> подпункт 1.2.5.4</a></li>
+                                    <li><a href="#"> подпункт 1.2.5.5</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="#">подпункт 1.3</a>
+                        <ul>
+                            <li><a href="#"> подпункт 1.3.1 </a></li>
+                            <li><a href="#"> подпункт 1.3.2 </a></li>
+                            <li><a href="#"> подпункт 1.3.3 </a></li>
+                            <li><a href="#"> подпункт 1.3.4 </a></li>
+                            <li><a href="#"> подпункт 1.3.5 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 1.4</a></li>
+                    <li class="parent"><a href="#">подпункт 1.5</a>
+                        <ul>
+                            <li><a href="#">подпункт 1.5.1 </a></li>
+                            <li><a href="#"> подпункт 1.5.2</a></li>
+                            <li><a href="#"> подпункт 1.5.3</a></li>
+                            <li><a href="#"> подпункт 1.5.4</a></li>
+                            <li><a href="#"> подпункт 1.5.5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- Пункт меню 2 -->
+            <li class="parent"><a href="#">Пункт 2</a>
+                <ul>
+                    <li class="parent"><a href="#">подпункт 2.1</a>
+                        <ul>
+                            <li class="parent"><a href="#"> подпункт 2.1.1 </a>
+                                <ul>
+                                    <li><a href="#"> подпункт 2.2.1.1 </a></li>
+                                    <li><a href="#"> подпункт 2.2.2.2 </a></li>
+                                    <li><a href="#"> подпункт 2.2.3.3 </a></li>
+                                    <li><a href="#"> подпункт 2.2.4.4 </a></li>
+                                    <li><a href="#"> подпункт 2.2.5.5 </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"> подпункт 2.1.2</a></li>
+                            <li><a href="#"> подпункт 2.1.3</a></li>
+                            <li><a href="#"> подпункт 2.1.4</a></li>
+                            <li><a href="#"> подпункт 2.1.5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 2.2</a></li>
+                    <li><a href="#">подпункт 2.3</a></li>
+                    <li><a href="#">подпункт 2.4</a></li>
+                    <li><a href="#">Длинный подпункт, длинный подпункт</a></li>
+                </ul>
+            </li>
+            <!-- Пункт меню 3 -->
+            <li class="parent"><a href="#">Длинный пункт меню 3</a>
+                <ul>
+                    <li class="parent"><a href="#">подпункт 3.1</a>
+                        <ul>
+                            <li><a href="#"> подпункт 3.1.1 </a></li>
+                            <li><a href="#"> подпункт 3.1.2 </a></li>
+                            <li><a href="#"> подпункт 3.1.3 </a></li>
+                            <li><a href="#"> подпункт 3.1.4 </a></li>
+                            <li><a href="#"> подпункт 3.1.5 </a></li>
+                        </ul>
+                    </li>
+                    <li class="parent"><a href="#">подпункт 3.2</a>
+                        <ul>
+                            <li><a href="#"> подпункт 3.2.1 </a></li>
+                            <li><a href="#"> подпункт 3.2.2 </a></li>
+                            <li><a href="#"> подпункт 3.2.3 </a></li>
+                            <li><a href="#"> подпункт 3.2.4 </a></li>
+                            <li><a href="#"> подпункт 3.2.5 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 3.3</a></li>
+                    <li><a href="#">подпункт 3.4</a></li>
+                    <li><a href="#">подпункт 3.5</a></li>
+                </ul>
+            </li>
+            <!-- Пункт меню 4 -->
+            <li class="parent"><a href="#">Пункт 4</a>
+                <ul>
+                    <li class="parent"><a href="#">подпункт 4.1</a>
+                        <ul>
+                            <li><a href="#"> подпункт 4.1.1 </a></li>
+                            <li><a href="#"> подпункт 4.1.2 </a></li>
+                            <li><a href="#"> подпункт 4.1.3 </a></li>
+                            <li><a href="#"> подпункт 4.1.4 </a></li>
+                            <li><a href="#"> подпункт 4.1.5 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 4.2</a></li>
+                    <li class="parent"><a href="#">подпункт 4.3</a>
+                        <ul>
+                            <li><a href="#"> подпункт 4.3.1 </a></li>
+                            <li><a href="#"> подпункт 4.3.2 </a></li>
+                            <li><a href="#"> подпункт 4.3.3 </a></li>
+                            <li><a href="#"> подпункт 4.3.4 </a></li>
+                            <li><a href="#"> подпункт 4.3.5 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 4.4</a></li>
+                    <li><a href="#">подпункт 4.5</a></li>
+                </ul>
+            </li>
+            <!-- Пункт меню 5 -->
+            <li class="parent"><a href="#">Пункт 5</a>
+                <ul>
+                    <li class="parent"><a href="#">подпункт 5.1</a>
+                        <ul>
+                            <li><a href="#"> подпункт 5.1.1 </a></li>
+                            <li><a href="#"> подпункт 5.1.2 </a></li>
+                            <li><a href="#"> подпункт 5.1.3 </a></li>
+                            <li><a href="#"> подпункт 5.1.4 </a></li>
+                            <li><a href="#"> подпункт 5.1.5 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">подпункт 5.2</a></li>
+                    <li><a href="#">подпункт 5.3</a></li>
+                    <li><a href="#">подпункт 5.4</a></li>
+                    <li><a href="#">подпункт 5.5</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Конец списка -->
+    </div>
+    <!-- Конец блока #mainmenu -->
+
+<nav>
+    <ul class="content clearfix">
+        <li><a href="#">Nav 1</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li class="dropdown">
+            <a href="#">Nav 3</a>
+            <ul class="sub-menu">
+                <li><a href="#">Nav 3.1</a></li>
+                <li><a href="#">Nav 3.2</a></li>
+                <li><a href="#">Nav 3.3</a></li>
+                <li class="dropdown">
+                    <a href="#">Nav 3.4</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Nav 3.4.1</a></li>
+                        <li class="dropdown">
+                            <a href="#">Nav 3.4.2</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.2.1</a></li>
+                                <li><a href="#">Nav 3.4.2.2</a></li>
+                                <li><a href="#">Nav 3.4.2.3</a></li>
+                                <li><a href="#">Nav 3.4.2.4</a></li>
+                                <li><a href="#">Nav 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.4.3</a></li>
+                        <li><a href="#">Nav 3.4.4</a></li>
+                        <li><a href="#">Nav 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nav 4</a></li>
+        <li><a href="#">Nav 5</a></li>
+    </ul>
+</nav>
 
 
-
-
-		<section class="checkbox">
-			<h3>Checkbox by jQuery</h3>
-			<p><label for="ch1">Checkbox 1</label><span class="niceCheck" id="ch1"><input type="checkbox" ></span></p>
-			<p><label for="ch2">Checkbox 2</label><span class="niceCheck" id="ch2"><input type="checkbox" checked="true" ></span></p>
-			<p><label for="ch3">Checkbox 3</label><span class="niceCheck"  id="ch3"><input type="checkbox" disabled="disabled"></span></p>
-			
-		</section>
-
-		<section class="checkbox2">
-			<h3>Checkbox by css</h3>
-			<article>
-			<input type="checkbox" id="test-check1">
-			<label for="test-check1">Чекбокс 1:</label>
-			</article>
-			<article>
-			<input type="checkbox" id="test-check2">
-			<label for="test-check2">Чекбокс 2:</label>
-			</article>
-			<article>
-			<input type="checkbox" id="test-check3" checked="true">
-			<label for="test-check3">Чекбокс 3:</label>
-			</article>
-			 -->
-		</section>
 		<nav class="navbar">
 			<ul class="menu">
 				<li><a href="#">Menu 1</a></li>
