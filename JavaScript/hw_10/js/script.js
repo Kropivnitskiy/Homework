@@ -107,19 +107,24 @@ catch(e)
     return true;
 }
 // End JQUERY checkbox
-  $('.menu li').hover(function(){
-    $(this).find('#submenu').stop(true, true).slideDown(300).animate({
-      backgroundColor: "#03c" 
-    }, 300);
-  }, function(){
-    $(this).find('#submenu').slideUp(400).animate({
-      backgroundColor: "#0ff" 
-    }, 300)
-  });
+$(function(){
+
+    $("ul.dropdown li").hover(function(){
+    
+        $(this).children('.sub-menu').slideDown(200);
+        $(this).addClass("hover");
+        $('ul:first',this).css('visibility', 'visible');
+    
+    }, function(){
+    
+        $(this).children('.sub-menu').slideUp(200);
+        $(this).removeClass("hover");
+        $('ul:first',this).css('visibility', 'hidden');
+    
+    });
+    
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+
+}); // end ready
 
 
-  $('#submenu li').hover(function(){
-    $(this).find('#submenu2').stop(true, true).fadeIn(1000);
-  }, function(){
-    $(this).find('#submenu2').fadeOut(400);
-  });
