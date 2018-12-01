@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Homework#5_form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!--FIRST FORM-->
+        <div class="container form-registration">
+              <form action="https://www.google.com/" method="get" id="sendform-first">
+                    <h1 class="head-first">We love to hear from you!</h1>
+                    <div class="gradient"></div>
+                    <div class="flex-box">
+                        <div class="flex-first-item">
+                            <p>Your Name:<input type="text" name="name"></p>
+                            <p>Your Email Address:<input type="email" name="email"></p>
+                            <p class="select">Select Service<br>
+                                <select name="industry">
+                                    <option>Select industry:</option>
+                                    <option value="alcohol">Alcohol industry‎</option>
+                                    <option value="chemical">Chemical industry‎</option>
+                                    <option value="nuclear">Nuclear industry‎</option>
+                                    <option value="heavy">Heavy industry‎</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="flex-first-item">
+                            <p>Your Message:</p>
+                                <textarea rows="10" cols="30" id="message"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <div class="flex-box">
+                    <p class="flex-second-item description">
+                        We value your privacy. We do not share or rent your contact details.</p>
+                    <button type="submit" class="flex-second-item button" formmethod="get" form="sendform-first">
+                        submit</button>
+                </div>
+            </div>
+        </div>
+
+    <!--SECOND FORM-->
+    <div class="container form-comment">
+        <div class="wrapper-comment">
+        <form action="https://www.google.com/" method="get" id="sendform-second">
+            <h1 class="head-second">Leave your comment here</h1>
+            <div class="flex-box-comment">
+                <div class="flex-first-item-comment">
+                    <p>Your Name:<br>
+                        <input type="text" name="name"></p>
+                    <p>Your Email (Required):<br>
+                        <input type="email" name="email"></p>
+                    <p>Your Website:<input type="text" name="website" placeholder="http://"></p>
+                </div>
+                <div class="flex-first-item-comment">
+                    <p>Your Comment Here:</p>
+                    <textarea rows="10" cols="45" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="flex-box-second">
+                <p class="flex-second-item-comment"><input type="checkbox" name="send-email" value="nofify">
+                    Notify me follow-up comments via email. </p>
+                <button type="submit" class="flex-second-item-comment button-comment" formmethod="get" form="sendform-second">
+                    submit</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <!--THIRD FORM-->
+    <div class="container container-subscribe">
+        <div class="wrapper-subscribe">
+            <form action="https://www.google.com/" method="get" id="sendform-subscribe">
+                <h1 class="head-subscribe">Subscribe to Our Newsletter</h1>
+                <div class="form-subscribe">
+                    <div class="subscribe-flex">
+                        <p class="image-mail"></p>
+                        <p><input type="email" name="mail" placeholder="email address here" value=""></p>
+                        <p><input type="submit" form="sendform-subscribe"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+    margin: 80px 434px;
+}
+
+h1 {
+    font-family: Times New Roman;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    font-size: 12px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.introduction_one {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.introduction_two {
+    font-size: 11px;
+}
+
+.introduction_three {
+    font-size: 11px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.darknet_one {
+    font-size: 11px;
+}
+
+.darknet_one span {
+    text-decoration: underline;
+}
+
+.darknet_two {
+    font-size: 11px;
+}
+
+.darknet_two span {
+    font-weight: 600;
+}
+
+.darknet_three {
+    font-size: 11px;
+}
+
+.darknet_four {
+    font-size: 11px;
+}
+
+.darknet_four .bold {
+    font-weight: 600;
+}
+
+.darknet_four .italic {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.cis_one {
+    font-size: 11px;
+}
+
+.cis_two {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.cis_three {
+    font-size: 11px;
+}
+
+.plane {
+    float: left;
+    width: 40%;
+    height: 40%;
+}
+
+.second_cis_one {
+    clear: left;
+    font-size: 11px;
+    font-style: italic;
+    text-align: right;
+}
+
+.opossum {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.second_cis_two {
+    font-size: 11px;
+}
+
+.list_one {
+    font-size: 11px;
+}
+
+.list_two {
+    font-size: 11px;
+}

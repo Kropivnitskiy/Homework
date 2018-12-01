@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Homework#3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="https://www.google.com/" method="get" id="sendform">
+        <fieldset>
+            <legend><h4>Коротко о себе</h4></legend>
+            <label>
+                Имя:
+                <input type="text" name="firstname" />
+            </label><br><br>
+            <label>
+                Фамилия:
+                <input type="text" name="lastname" />
+            </label><br><br>
+            Пол:
+            <input type="radio" id="man" name="gender" />
+            <label for="man">мужской</label>
+            <input type="radio" id="women" name="gender" />
+            <label for="women">женский</label><br><br>
+            Возраст:
+            <input type="text" class="age" />
+            <label>лет</label>
+        </fieldset>
+        <fieldset>
+            <legend><h4>Подробнее о себе</h4></legend>
+            <input type="radio" id="man" name="pair" />
+            <label for="man">Молодой человек</label><br>
+            <input type="radio" id="women" name="pair" />
+            <label for="women">Девушка</label><br>
+            <label>
+                <input type="text" name="birthday" />
+                Дата рождения
+            </label><br>
+            <label>
+                <input type="text" name="maritalstatus" />
+                Семейное положение
+            </label><br>
+            <label>
+                <input type="text" name="socialstatus" />
+                Социальный статус
+            </label><br>
+            <label>
+                <input type="text" name="residence" />
+                Местожительство
+            </label><br>
+            <h4>Что вы обычно делаете на выходных:</h4>
+            <label>
+                <input type="checkbox" name="hobby1" />
+                Сплю
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobby2" />
+                Гуляю с друзьями
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobby3" />
+                Хожу на рыбалку
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobby4" />
+                Играю в игры
+            </label><br>
+            <h4>Рассказать о формах в книге, посвященной HTML:</h4>
+            <select name="htmlbooks">
+                <option>Site frequency:</option>
+                <option>Sample code</option>
+                <option>A Brief Review of HTML Forms</option>
+            </select>
+            <h4>Сколько книг вы прочитали за свою жизнь:</h4>
+            <input type="radio" id="0-10" name="books" />
+            <label for="man">0-10</label><br>
+            <input type="radio" id="11-20" name="books" />
+            <label for="women">11-20</label><br>
+            <input type="radio" id="21-50" name="books" />
+            <label for="women">21-50</label><br>
+            <input type="radio" id="50+" name="books" />
+            <label for="women">50+</label><br>
+            <h4>Ваши комментарии:</h4>
+            <textarea rows="10" cols="50" name="textbody"></textarea>
+            <p>
+                <select size="3" multiple name="lists[]">
+                    <option>Первая позиция</option>
+                    <option>Вторая позиция</option>
+                    <option>Третья позиция</option>
+                    <option>Четвертая позиция</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend><h4>И в заключении</h4></legend>
+            <input type="text" size="30px" placeholder="Это поле было введено до вас" /><br>
+            <h4>Email:</h4>
+            <input type="email" name="email" class="email" /><br>
+            <h4>Хотите подписаться на самую модную рассылку спама?</h4>
+            <legend class="italic">Выберите категории</legend>
+            <p></p>
+            <label>
+                <input type="checkbox" name="equipment" />
+                Оборудование
+            </label><br>
+            <label>
+                <input type="checkbox" name="cooking" />
+                Как приготовить обеды
+            </label><br>
+            <label>
+                <input type="checkbox" name="makemoney" />
+                Заработай миллион за два дня!
+            </label><br>
+            <h4>Насколько сложная задача?</h4>
+            <input type="radio" id="nothing" name="task" />
+            <label for="nothing">Совсем нет</label><br>
+            <input type="radio" id="middling" name="task" />
+            <label for="middling">Так себе</label><br>
+            <input type="radio" id="hard" name="task" />
+            <label for="hard">Еле справились</label><br>
+        </fieldset>
+            <p>
+            <button type="submit" formmethod="get" form="sendform">Отправить</button>
+            </p>
+    </form>
+</body>
+</html>

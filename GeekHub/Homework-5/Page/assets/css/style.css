@@ -1,0 +1,179 @@
+body {
+  max-width: 1815px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid #008375;
+}
+
+.image-dog {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #a7dbd3;
+}
+
+.article {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Akzidenz Grotesk BE", sans-serif;
+  color: #5a5555;
+}
+
+.article h2 {
+  font-size: 44px;
+}
+
+.article p {
+  font-size: 33px;
+}
+
+.request {
+  padding-top: 40px;
+  background-color: #008375;
+}
+
+.form-request {
+  margin: 0 auto;
+  width: 54%;
+}
+
+.head-request {
+  display: flex;
+  justify-content: space-between;
+  color: #a7dbd3;
+  font-weight: 700;
+}
+
+.head-request h1 {
+  margin-top: 10px;
+  font-family: "Akzidenz Grotesk BE", sans-serif;
+  font-size: 45px;
+}
+
+.head-request h2 {
+  font-family: Gotham, sans-serif;
+  font-size: 29px;
+}
+
+.form-request p {
+  width: 85%;
+  font-family: "Arial - Bold MT", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  color: #f1f1f1;
+}
+
+table {
+  border: none;
+}
+
+td, tr {
+  font-family: Gotham, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30.15px;
+  border: 5px solid #008375;
+  background-color: #e3f3ef;
+}
+
+.table-request {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-request input {
+  height: 50px;
+  border: none;
+  background-color: #e3f3ef;
+  color: #76b9b2;
+}
+
+.table-request input[placeholder] {
+  padding-left: 30px;
+  font-family: Gotham, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.button-form {
+  margin: -10% 0 5% 91%;
+  width: 15%;
+  height: 61px;
+  background-color: #68c2b6;
+  border: none;
+  font-family: Gotham, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.order {
+  height: 568px;
+  background-color: #a7dbd3;
+}
+
+.product {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.button-order {
+  margin-left: 25%;
+  width: 11%;
+  height: 61px;
+  background-color: #007f6c;
+  font-family: Gotham, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.download {
+  padding-top: 50px;
+  height: 450px;
+  font-family: "Akzidenz Grotesk BE", sans-serif;
+  background-color: #a7dbd3;
+  opacity: 0.53;
+}
+
+.download h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 33px;
+}
+
+.list-download {
+  text-align: center;
+  opacity: 1.0;
+}
+
+.list-download ul li {
+  display: inline;
+  padding: 30px;
+  list-style: none;
+}
+
+footer {
+  background-color: #515151;
+  font-family: "Arial MT", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description {
+  padding: 20px 0;
+  width: 64%;
+  margin: 0 auto;
+}
+
+.visible-description {
+  color: #eef1f1;
+}
+
+.blind-description {
+  color: #515151;
+}

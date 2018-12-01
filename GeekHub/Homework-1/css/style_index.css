@@ -1,0 +1,41 @@
+        body {
+        background: url(../img/website-html-code.jpg);
+        margin: 100px 200px;
+        }
+		
+        .wrapper {
+        display: block;
+        margin: 0 auto;
+        }
+		
+        .html {
+        font-weight: bold;
+        font-size: 36px;
+        color: black;
+        }
+		
+        .bold {
+        font-weight: bold;
+        }
+		
+        div {
+        font-size: 26px;
+        color: crimson;
+        }
+		
+        #blink {
+        -webkit-animation: blink 3s linear infinite;
+        animation: blink 3s linear infinite;
+        }
+		
+        @-webkit-keyframes blink {
+        0% { color: rgba(34, 34, 34, 1); }
+        50% { color: rgba(34, 34, 34, 0); }
+        100% { color: rgba(34, 34, 34, 1); }
+        }
+		
+        @keyframes blink {
+        0% { color: rgba(34, 34, 34, 1); }
+        50% { color: rgba(34, 34, 34, 0); }
+        100% { color: rgba(34, 34, 34, 1); }
+        }
